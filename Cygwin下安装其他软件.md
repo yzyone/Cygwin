@@ -11,14 +11,13 @@
 
 2.安装apt-cyg
 
-    wget http://apt-cyg.googlecode.com/svn/trunk/apt-cyg -P /bin chmod.exe +x /bin/apt-cyg
+    lynx -source rawgit.com/transcode-open/apt-cyg/master/apt-cyg > apt-cyg
+	install apt-cyg /bin
+    chmod.exe +x /bin/apt-cyg
 
-       此命令表示将http://apt-cyg.googlecode.com/svn/trunk/apt-cyg中的apt-cyg拷贝到本地/bin目录下;然后赋予可执行权限;
- 或者使用以下命令:
+此命令表示将http://rawgit.com/transcode-open/apt-cyg/master/apt-cyg中的apt-cyg拷贝到本地/bin目录下;
 
-    # svn --force export http://apt-cyg.googlecode.com/svn/trunk/ /bin/
-    # chmod +x /bin/apt-cyg
-
+然后赋予可执行权限;
 
 3.替换apt-cyg镜像源
 
