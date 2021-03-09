@@ -15,9 +15,11 @@
 	install apt-cyg /bin
     chmod.exe +x /bin/apt-cyg
 
-此命令表示将http://rawgit.com/transcode-open/apt-cyg/master/apt-cyg中的apt-cyg拷贝到本地/bin目录下;
+此命令表示将http://rawgit.com/transcode-open/apt-cyg/master/apt-cyg中的apt-cyg拷贝到本地/bin目录下;然后赋予可执行权限;
 
-然后赋予可执行权限;
+    git clone https://github.com/transcode-open/apt-cyg.git
+    cd apt-cyg
+    install apt-cyg /bin
 
 3.替换apt-cyg镜像源
 
